@@ -1,9 +1,4 @@
 # False positive
-source-is-missing test/unit/css.js
-source-is-missing test/unit/manipulation.js
-source-contains-prebuilt-javascript-object test/unit/css.js
-source-contains-prebuilt-javascript-object test/unit/manipulation.js
-very-long-line-length-in-source-file CONTRIBUTING.md line 19 is 653 characters long (>512)
-very-long-line-length-in-source-file types-jquery/JQuery.d.ts line 11855 is 546 characters long (>512)
-very-long-line-length-in-source-file types-jquery/README.md line 16 is 1161 characters long (>512)
-very-long-line-length-in-source-file types-jquery/misc.d.ts line 6524 is 868 characters long (>512)
+very-long-line-length-in-source-file *.md*
+very-long-line-length-in-source-file *types-jquery/JQuery.d.ts*
+very-long-line-length-in-source-file *types-jquery/misc.d.ts*
